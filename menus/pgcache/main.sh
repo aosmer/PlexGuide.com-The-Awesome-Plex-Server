@@ -54,7 +54,20 @@ CHOICE=$(dialog --clear \
 clear
 case $CHOICE in
         A)
+        
+# allows others to access fuse
+tee "/etc/fuse.conf" > /dev/null <<EOF
+# /etc/fuse.conf - Configuration file for Filesystem in Userspace (FUSE)
+# Set the maximum number of FUSE mounts allowed to non-root users.
+# The default is 1000.
+#mount_max = 1000
+# Allow non-root users to specify the allow_other or allow_root mount options.
+user_allow_other
+EOF
+        
             ansible-playbook /opt/plexguide/ansible/plexguide.yml --tags pgcache_rclone #1>/dev/null 2>&1
+            chown 1000:1000 /usr/bin/rclone 1>/dev/null 2>&1
+            chmod 755 /usr/bin/rclone 1>/dev/null 2>&1
             rclone config
             ;;
         B)
