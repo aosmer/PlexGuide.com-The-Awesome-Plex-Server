@@ -1,12 +1,12 @@
 <p align="center"><b>CLICKING the STAR in the UPPER RIGHT promotes our PROJECT on GITHUB and goes a long way!</b></p>
 
 <p align="center">
-  <a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki" target="_blank"><img src="https://plexguide.com/media/4-wiki-png.32/full" width="200"/>
-  <a href="https://plexguide.com/" target="_blank"><img src="https://plexguide.com/media/5-plexguide-png.33/full" width="200"/> 
-  <a href="https://plexguide.com/threads/plexguide-install-instructions.243/" target="_blank"><img src="https://plexguide.com/media/1-install-png.29/full" width="200"/> 
-  <a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki/PG-Intro-&-Quick-FAQ-101" target="_blank"><img src="https://plexguide.com/media/6-new-png.34/full" width="200"/> 
-  <a href="https://plexguide.com/threads/your-discord-invite.769/" target="_blank"><img src="https://plexguide.com/media/3-discord-png.31/full" width="200"/> 
-  <a href="https://plexguide.com/dbtech-donate/monthly-developer-costs.1/donate" target="_blank"><img src="https://plexguide.com/media/2-donation-png.30/full" width="200"/> 
+  <a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki" target="_blank"><img src="https://plexguide.com/media/4-wiki-png.189/full" width="200"/>
+  <a href="https://plexguide.com/" target="_blank"><img src="https://plexguide.com/media/5-plexguide-png.188/full" width="200"/> 
+  <a href="https://plexguide.com/threads/plexguide-install-instructions.243/" target="_blank"><img src="https://plexguide.com/media/1-install-png.191/full" width="200"/> 
+  <a href="https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki/PG-Intro-&-Quick-FAQ-101" target="_blank"><img src="https://plexguide.com/media/6-new-png.187/full" width="200"/> 
+  <a href="https://plexguide.com/threads/your-discord-invite.769/" target="_blank"><img src="https://plexguide.com/media/3-discord-png.190/full" width="200"/> 
+  <a href="https://plexguide.com/dbtech-donate/monthly-developer-costs.1/donate" target="_blank"><img src="https://plexguide.com/media/2-donation-png.192/full" width="200"/> 
 </p>
 
 ----
@@ -14,14 +14,14 @@
 
 **Mission Statement:** PlexGuide is an all-in-one media solution that deploys a Media Server through the use of your Local HD or Google Drive; serving as an unlimited back-end storage. PlexGuide utilizes Ansible and Docker to streamline your Media Server, while deploying multiple tools for your Server Operations.
 
-<p align="center"><kbd><img src="https://plexguide.com/media/pg2-gif.116/full"></kbd></p>
+<p align="center"><kbd><img src="https://plexguide.com/media/pg2-1-gif.184/full"></kbd></p>
 
 **Human Speak:** We make your life easy by automating as much as we can so you can spend less time coding and more time watching!
 
 [**The PlexGuide Wiki:**](https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server/wiki) There are a series of topics that you should read to assist you! EVERYONE has rights to edit and/or build new wiki pages.  What you know may save everyone time!
 
 <p align="center"><b>Manage PlexGuide - AnyTime, Anywhere!</b></p>
-<p align="center"><kbd><img src="https://plexguide.com/media/snip20180424_194-png.75/full"></kbd></p>
+<p align="center"><kbd><img src="https://plexguide.com/media/snip20180517_8-png.186/full"></kbd></p>
 
 ----
 
@@ -44,13 +44,11 @@ SuperTransfer Author Concept Below: [Flicker-Rate](https://github.com/flicker-ra
 
 <p align="center">
 <kbd>
-  <img src="https://plexguide.com/media/snip20180415_312-png.14/full">
+  <img src="https://plexguide.com/media/snip20180517_9-png.194/full">
 </kbd>
 </p>
 
 ----
-
-[![N|Solid](https://plexguide.com/media/pgdemo-png.16/full)](https://plexguide.com)
 
 [![N|Solid](https://camo.githubusercontent.com/348b82630f4f5be3c775c9caed3bb5765b0b3018/687474703a2f2f692e696d6775722e636f6d2f785370773438322e706e67)](https://plexguide.com/forums/pg-scripting.94/) [![N|Solid](https://camo.githubusercontent.com/653f9f8e115242dddb8f6282d17c8ef550844294/687474703a2f2f692e696d6775722e636f6d2f6d464f304f75582e706e67)](https://plexguide.com/forums/development.14/)
 
