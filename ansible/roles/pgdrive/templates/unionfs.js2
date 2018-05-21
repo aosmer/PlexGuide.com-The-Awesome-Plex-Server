@@ -1,6 +1,7 @@
 [Unit]
 Description=UnionFS Daemon
-After=multi-user.target gcache.service
+Requires=gdrive.service
+After=multi-user.target gdrive.service
 RequiresMountsFor=/mnt/gdrive
 
 [Service]
@@ -8,7 +9,7 @@ Type=simple
 User=0
 Group=0
 ExecStartPre=/bin/sleep 10
-ExecStart=/usr/bin/unionfs -o cow,allow_other,nonempty /mnt/move=RW:/mnt/gdrive=RO:/mnt/tcache=RO /mnt/unionfs
+ExecStart=/usr/bin/unionfs -o cow,allow_other,nonempty /mnt/move=RW:/mnt/gdrive=RO:/mnt/tdrive=RO /mnt/unionfs
 ExecStop=/bin/fusermount -uz /mnt/unionfs
 TimeoutStopSec=20
 KillMode=process

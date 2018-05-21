@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-# [PlexGuide Menu]
+# [SuperTransfer]
 #
 # GitHub:   https://github.com/Admin9705/PlexGuide.com-The-Awesome-Plex-Server
-# Author:   Admin9705 & Deiteq
+# Author:   FlickerRate
 # URL:      https://plexguide.com
 #
 # PlexGuide Copyright (C) 2018 PlexGuide.com
@@ -16,10 +16,16 @@
 #
 #################################################################################
 
-## Stop old rclone plexdrive services if Installed
-bash /opt/plexguide/scripts/test/stop-services
+[Unit]
+Description='SuperTransfer Loaded Balanced Multi SA Gdrive Uploader'
+After=multi-user.target network-online.target
 
-# ansible-playbook /opt/plexguide/ansible/plexguide.yml --tags rclone-switch
-# ansible-playbook /opt/plexguide/ansible/vpn.yml --tags rclone_switch
+[Service]
+User=0
+Group=0
+Type=simple
+ExecStart=/bin/bash /opt/plexguide/scripts/supertransfer/supertransfer2.sh 
+KillMode=process
 
-esac
+[Install]
+WantedBy=multi-user.target
